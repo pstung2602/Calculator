@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="test.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        Phep Tinh<input id ="number" type="text"/><br>
+        Ket Qua  <input id="number1" type="text"/<br>
+    </tr>
+    <tr>
+        <td><input class="so" onclick = "number.value+=this.value" value="0" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="1" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="2" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="3" type="button"/></td>
+    </tr>
+    <tr>
+        <td><input class="so" onclick = "number.value+=this.value" value="4" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="5" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="6" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="7" type="button"/></td>
+    </tr>
+    <tr>
+        <td><input class="so" onclick = "number.value+=this.value" value="9" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="+" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="8" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="-" type="button"/></td>
+    </tr>
+    <tr>
+        <td><input class="so" onclick = "number.value+=this.value" value="*" type="button"/></td>
+        <td><input id="abc" class="so" onclick = "sin(document.getElementById('number').value)" value="sin" type="button"/></td>
+        <td><input class="so" onclick = "number.value+=this.value" value="/" type="button"/></td>
+        <td><input class="so" onclick = "number.value=''" value="C" type="button"/></td>
+        <td><input class="so" onclick = "number.value=number.value.substr(0,number.value.length-1)" value="del" type="button"/></td>
+        <td><input class="so" value="=" type="button" onclick = "number1.value = eval(number.value)"/></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
